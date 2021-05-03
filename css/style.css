@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 70%;
+}
+/* --------------- */
+header{
+    background-image: url(../img/pattern.png);
+    background-color: rgb(18, 137, 192);
+    background-repeat: repeat;
+    background-size: contain;
+    height: 120px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    bottom: 0;
+    width: 20%;
+    margin: 10px;
+}
+/* --------------- */
+.autore{
+    color: gray;
+    font-weight: bold;
+}
+.nome-autore{
+    color: rgb(57, 125, 168);
+}
+/* --------------- */
+.descrizione{
+    font-size: smaller;
+    margin-bottom: 20px;
+}
+/* --------------- */
+.evidenziatore{
+    background-color: yellow;
+}
+ul{
+    margin-left: -24px;
+}
+
+.table{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.riga{
+    height: 50px;
+    width: 100%;
+}
+.riga.principale{
+    background-color: rgb(0, 138, 202);
+    color: white;
+    width: 100%;
+    height: 20px;
+    font-weight: bold;
+}
+.colonna{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.colonna.destra{
+    width: 50%;
+}
+.riga.blu{
+    background-color: rgb(92, 213, 253);
+}
+
+    
+
+/* --------------- */
+.interesse{
+    color: gray;
+    margin-top: 20px;
+    font-size:large;
+}
+.img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px;
+}
+.pc{
+    background-image: url(../img/monitor.jpg);
+}
+.calcolo{
+    background-image:url(../img/graph.jpg)
+ }
