@@ -2,9 +2,9 @@
     box-sizing: border-box;
 }
 body{
-    width: 70%;
+    width: 67%;
 }
-/* --------------- */
+/* ----layout logo e sfondo incima alla pagina---- */
 header{
     background-image: url(../img/pattern.png);
     background-color: rgb(18, 137, 192);
@@ -19,23 +19,31 @@ header{
     width: 20%;
     margin: 10px;
 }
-/* --------------- */
+/* ----layout titolo e autore della pagina---- */
+.titolo{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
 .autore{
     color: gray;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 .nome-autore{
     color: rgb(57, 125, 168);
 }
-/* --------------- */
+/* ----layout immaggini berers-lee e testo di descrizione al disotto---- */
 .descrizione{
     font-size: smaller;
     margin-bottom: 20px;
 }
-/* --------------- */
+/* ----layout del contenuto centrale della pagina---- */
 .evidenziatore{
     background-color: yellow;
 }
+
 ul{
     margin-left: -24px;
 }
@@ -45,7 +53,7 @@ ul{
     margin-bottom: 20px;
 }
 .riga{
-    height: 50px;
+    height: 100px;
     width: 100%;
 }
 .riga.principale{
@@ -66,10 +74,12 @@ ul{
 .riga.blu{
     background-color: rgb(92, 213, 253);
 }
-
-    
-
-/* --------------- */
+.testo{
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+/* ----layout della parte finale della pagina---- */
 .interesse{
     color: gray;
     margin-top: 20px;
